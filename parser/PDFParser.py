@@ -7,7 +7,7 @@ class PDFParser():
 		pass
 
 	@classmethod
-	def get_reader(cls, pdf_bytes_content):
+	def get_pypdf2_reader(cls, pdf_bytes_content):
 		return PdfReader(BytesIO(pdf_bytes_content))
 
 	@classmethod
