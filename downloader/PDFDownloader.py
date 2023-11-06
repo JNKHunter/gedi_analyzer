@@ -1,4 +1,5 @@
 import requests
+from celery import Celery
 
 class PDFDownloader():
 	def __init__(self):
