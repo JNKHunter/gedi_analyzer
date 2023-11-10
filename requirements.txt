@@ -16,7 +16,6 @@ click-repl==0.3.0
 confection==0.1.3
 conllu==4.5.3
 cymem==2.0.8
-en-core-sci-sm==0.5.3
 en-ner-bionlp13cg-md @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_ner_bionlp13cg_md-0.5.3.tar.gz
 Flask==3.0.0
 Flask-RESTful==0.3.10
