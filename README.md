@@ -4,3 +4,6 @@
 ### Conda
 conda deactivate
 conda activate scispacy
+
+### Start worker
+celery -A tasks worker --loglevel=INFO

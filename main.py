@@ -34,8 +34,7 @@ db = setup_database(app)
 class ArticleProcessor(Resource):
 
 	def post(self):
-		args = parser.parse_args()
-		#new_article = {'title': args['title'], 'uri': args['uri']}
+		args = parser.parse_args()		
 
 		new_article = Article(
 			title=args['title'],
